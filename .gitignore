@@ -416,20 +416,37 @@
                 <br><label for="">DSC</label></br>
                 <input type="radio" id="r23" name="r23" value="">
                 <input type="search" id="s1" name="s1" value="please select">
-                <br><p style="display: inline;">Upload Photo</p> &emsp; &emsp;&emsp;
-                <input type="button" id="b1" size="10px"  name="b1" value="choose file"></br>
-                <br><p style="display: inline;">Upload Document</p>&emsp; &emsp; &emsp;
-                <input type="button" id="b2" size="10px" name="b2" value="choose file"></br>
-                <br><p style="display: inline;">Upload Signature</p>&emsp; &emsp; &emsp;
-                <input type="button" id="b3" size="10px" name="b3" value="choose file"></br>
-                <br><label for="">Already Uploaded Photo</label>
-                <input type="textbox" id="tb19" name="tb19"> </br>&emsp; &emsp;
-                <br><label for="">Already Uploaded Signature</label>
-                <input type="textbox" id="tb21" name="tb21"></br>
-                <br><label for="">Already Uploaded Documents</label>
-                <input type="textbox" id="tb22" size="20px" width="50px" height="200px" name="tb22"></br>
-                <align center><input type="button" id="b4" value="submit" ></align>
-                
+               <option value="">--Select--</option>
+</select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+        <span style="color: brown;"><u>Guidelines for DSC User</u></span>
+        <p>
+            Upload Photo &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg" &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;>
+            <span>Upload Signature &emsp;&emsp;</span>
+            <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg"> <label for="avatar"></label>
+            <label for="avatar"></label>
+        </p>
+
+        <p>
+            Upload Document &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            <label for="avatar"></label>
+
+            <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg">
+
+        </p>
+        </p>
+        <input style="background-color: white; color: brown;" type="text" name="digilocker" id="digilocker" placeholder="Fetch from DigiLocker"> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        <b>OR</b>
+
+        <br> ALREADY UPLOADED PHOTO: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" name="aup" id="aup" size="35"> <br><br> ALREADY UPLOADED SIGNATURE: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" name="aus" id="aus" size="20"> <br><br> ALREADY UPLOADED DOCUMENTS: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+        <textarea name="aud" id="aud" cols="75" rows="10"></textarea> <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="submit" value="Submit"> <br>
+        <hr style="border-color: rgb(22, 22, 22);width: 100%;"><br>
+
                 
 
 
